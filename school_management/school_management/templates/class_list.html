@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classes</title>
+</head>
+<body>
+    <h1>Classes</h1>
+    <ul>
+        {% for class in classes %}
+        <li>{{ class.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
